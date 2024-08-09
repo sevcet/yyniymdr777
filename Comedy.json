@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <movie>
+    <title>Comedy</title>
+    <imageUrl>https://img.youtube.com/vi/t0pLLevYGiY/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 2</title>
+    <imageUrl>https://img.youtube.com/vi/x0PdjJnKbKw/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 3</title>
+    <imageUrl>https://img.youtube.com/vi/cgsfGHsMZV0/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 4</title>
+    <imageUrl>https://img.youtube.com/vi/Ll8_-6VqnyY/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 5</title>
+    <imageUrl>https://img.youtube.com/vi/GSBKUXjU-yU/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 6</title>
+    <imageUrl>https://img.youtube.com/vi/TD5EqufyO1g/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 7</title>
+    <imageUrl>https://img.youtube.com/vi/Jyf_XfAMct0/0.jpg</imageUrl>
+  </movie>
+  <movie>
+    <title>Opis filma 8</title>
+    <imageUrl>https://img.youtube.com/vi/0C6HNIFUvz0/0.jpg</imageUrl>
+  </movie>
+</movies>
