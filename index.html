@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmski katalog</title>
+  <title>Movie List</title>
   <style>
     .movie-container {
       display: flex;
@@ -11,7 +9,8 @@
       margin-bottom: 20px;
     }
     .movie-poster {
-      width: 100px;
+      width: 150px;
+      height: auto;
       margin-right: 20px;
     }
     .movie-info h3 {
@@ -20,17 +19,15 @@
   </style>
 </head>
 <body>
-  <h1>Filmski katalog</h1>
+  <h1>Movie List</h1>
   <div id="movie-list"></div>
 
   <script>
-    // URL JSON datoteke
-    const jsonUrl = 'https://sevcet.github.io/yyniymdr777/prva.json';
-
-    // Preuzimanje JSON podataka
-    fetch(jsonUrl)
-      .then(response => response.json())
-      .then(data => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://sevcet.github.io/yyniymdr777/prva.json');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        const data = JSON.parse(xhr.responseText);
         // Prikaz filmova
         const movieList = document.getElementById('movie-list');
         data.forEach(movie => {
@@ -59,10 +56,14 @@
 
           movieList.appendChild(movieContainer);
         });
-      })
-      .catch(error => {
-        console.error('Greška pri preuzimanju podataka:', error);
-      });
+      } else {
+        console.error('Greška pri preuzimanju podataka:', xhr.status, xhr.statusText);
+      }
+    };
+    xhr.onerror = function() {
+      console.error('Greška pri preuzimanju podataka:', xhr.status, xhr.statusText);
+    };
+    xhr.send();
   </script>
 </body>
 </html>
