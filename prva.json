@@ -1,10 +1,45 @@
-{
-    "t0pLLevYGiY": "peva",
-    "x0PdjJnKbKw": "druga",
-    "cgsfGHsMZV0": "treca",
-    "Ll8_-6VqnyY": "Movie Title 4",
-    "GSBKUXjU-yU": "Movie Title 5",
-    "TD5EqufyO1g": "Movie Title 6",
-    "Jyf_XfAMct0": "Movie Title 7",
-    "0C6HNIFUvz0": "Movie Title 8"
-}
+[
+  {
+    "title": "prvi",
+    "poster": "https://img.youtube.com/vi/t0pLLevYGiY/0.jpg",
+    "description": "Opis filma 1"
+  },
+  {
+    "title": "drugi",
+    "poster": "https://img.youtube.com/vi/x0PdjJnKbKw/0.jpg",
+    "description": "Opis filma 2"
+  },
+  {
+    "title": "prvi",
+    "poster": "https://img.youtube.com/vi/cgsfGHsMZV0/0.jpg",
+    "description": "Opis filma 3"
+  },
+  {
+    "title": "drugi",
+    "poster": "https://img.youtube.com/vi/Ll8_-6VqnyY/0.jpg",
+    "description": "Opis filma 4"
+  },
+  {
+    "title": "prvi",
+    "poster": "https://img.youtube.com/vi/GSBKUXjU-yU/0.jpg",
+    "description": "Opis filma 5"
+  },
+  {
+    "title": "drugi",
+    "poster": "https://img.youtube.com/vi/TD5EqufyO1g/0.jpg",
+    "description": "Opis filma 6"
+  },
+  {
+    "title": "prvi",
+    "poster": "https://img.youtube.com/vi/Jyf_XfAMct0/0.jpg",
+    "description": "Opis filma 7"
+  },
+  {
+    "title": "drugi",
+    "poster": "https://img.youtube.com/vi/0C6HNIFUvz0/0.jpg",
+    "description": "Opis filma 8"
+  },
+  // Više filmova...
+]
+
+

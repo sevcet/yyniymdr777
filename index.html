@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmski katalog</title>
+  <style>
+    .movie-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .movie-poster {
+      width: 100px;
+      margin-right: 20px;
+    }
+    .movie-info h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Filmski katalog</h1>
+  <div id="movie-list"></div>
+
+  <script>
+    // Preuzimanje JSON podataka sa GitHub pages
+    fetch('https://sevcet.github.io/yyniymdr777/prva.json')
+      .then(response => response.json())
+      .then(data => {
+        // Prikaz filmova
+        const movieList = document.getElementById('movie-list');
+        data.forEach(movie => {
+          const movieContainer = document.createElement('div');
+          movieContainer.classList.add('movie-container');
+
+          const poster = document.createElement('img');
+          poster.src = movie.poster;
+          poster.alt = movie.title;
+          poster.classList.add('movie-poster');
+
+          const info = document.createElement('div');
+          info.classList.add('movie-info');
+
+          const title = document.createElement('h3');
+          title.textContent = movie.title;
+
+          const description = document.createElement('p');
+          description.textContent = movie.description;
+
+          info.appendChild(title);
+          info.appendChild(description);
+
+          movieContainer.appendChild(poster);
+          movieContainer.appendChild(info);
+
+          movieList.appendChild(movieContainer);
+        });
+      })
+      .catch(error => {
+        console.error('Greška pri preuzimanju podataka:', error);
+      });
+  </script>
+</body>
+</html>
