@@ -24,8 +24,11 @@
   <div id="movie-list"></div>
 
   <script>
-    // Preuzimanje JSON podataka sa GitHub pages
-    fetch('https://sevcet.github.io/yyniymdr777/prva.json')
+    // URL JSON datoteke
+    const jsonUrl = 'https://sevcet.github.io/yyniymdr777/prva.json';
+
+    // Preuzimanje JSON podataka
+    fetch(jsonUrl)
       .then(response => response.json())
       .then(data => {
         // Prikaz filmova
