@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Database</title>
+  <style>
+    .movie-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .movie-info {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Movie Database</h1>
+  <div id="movie-list"></div>
+
+  <script>
+    // Fetch movie data from XML file
+    fetch('Drama.xml')
+      .then(response => response.text())
+      .then(data => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data, 'application/xml');
+        const movies = doc.getElementsByTagName('movie');
+
+        // Create HTML elements for each movie
+        for (let i = 0; i < movies.length; i++) {
+          const movie = movies[i];
+          const title = movie.getElementsByTagName('title')[0].textContent;
+          const thumbnail = movie.getElementsByTagName('thumbnail')[0].textContent;
+
+          const movieContainer = document.createElement('div');
+          movieContainer.className = 'movie-container';
+
+          const img = document.createElement('img');
+          img.src = thumbnail;
+          img.alt = title;
+
+          const info = document.createElement('div');
+          info.className = 'movie-info';
+          info.innerHTML = `<h2>${title}</h2>`;
+
+          movieContainer.appendChild(img);
+          movieContainer.appendChild(info);
+          document.getElementById('movie-list').appendChild(movieContainer);
+        }
+      })
+      .catch(error => console.error('Error:', error));
+  </script>
+</body>
+</html>
