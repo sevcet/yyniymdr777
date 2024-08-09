@@ -31,13 +31,13 @@
         for (let i = 0; i < movies.length; i++) {
           const movie = movies[i];
           const title = movie.getElementsByTagName('title')[0].textContent;
-          const thumbnail = movie.getElementsByTagName('thumbnail')[0].textContent;
+          const imageUrl = movie.getElementsByTagName('imageUrl')[0].textContent;
 
           const movieContainer = document.createElement('div');
           movieContainer.className = 'movie-container';
 
           const img = document.createElement('img');
-          img.src = thumbnail;
+          img.src = imageUrl;
           img.alt = title;
 
           const info = document.createElement('div');
