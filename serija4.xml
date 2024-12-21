@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movies>
   <movie>
-    <title>Domace_serije</title>
+    <title>serija 4</title>
     <imageUrl>https://img.youtube.com/vi/t0pLLevYGiY/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=t0pLLevYGiY</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/x0PdjJnKbKw/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=x0PdjJnKbKw</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/cgsfGHsMZV0/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=cgsfGHsMZV0</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/Ll8_-6VqnyY/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=Ll8_-6VqnyY</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/GSBKUXjU-yU/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=GSBKUXjU-yU</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/TD5EqufyO1g/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=TD5EqufyO1g</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/Jyf_XfAMct0/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=Jyf_XfAMct0</videoUrl>
   </movie>
   <movie>
     <title>XXX</title>
     <imageUrl>https://img.youtube.com/vi/0C6HNIFUvz0/0.jpg</imageUrl>
+    <videoUrl>https://www.youtube.com/watch?v=0C6HNIFUvz0</videoUrl>
   </movie>
 
 </movies>
