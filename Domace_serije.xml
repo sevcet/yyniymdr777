@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movies>
   <movie>
-    <title>Domace_serije</title>
-    <imageUrl>https://img.youtube.com/vi/t0pLLevYGiY/0.jpg</imageUrl>
+    <title>Ljubav na seoski način</title>
+    <imageUrl>https://image.tmdb.org/t/p/original/sRvzR1cFQULtuJQWWUABePIp87i.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija1.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/x0PdjJnKbKw/0.jpg</imageUrl>
+    <title>Bolji život </title>
+    <imageUrl>https://image.tmdb.org/t/p/original/bHoBVQRNuuAnVl8FV4mXBJ2u3du.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija2.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/cgsfGHsMZV0/0.jpg</imageUrl>
+    <title>Srećni ljudi</title>
+    <imageUrl>https://image.tmdb.org/t/p/original/eoYntmpttNK9ZQxXr63smswobwC.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija3.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/Ll8_-6VqnyY/0.jpg</imageUrl>
+    <title>Kamiondžije d.o.o.</title>
+    <imageUrl>https://image.tmdb.org/t/p/original/hUABWAOY1zWQ4v8r2PR4gAk6nfc.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija4.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/GSBKUXjU-yU/0.jpg</imageUrl>
+    <title>Kamiondžije</title>
+    <imageUrl>https://image.tmdb.org/t/p/original/cIjus6e0AygRyvtVx837rCn4ZI.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija5.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/TD5EqufyO1g/0.jpg</imageUrl>
+    <title>Радио Милева</title>
+    <imageUrl>https://image.tmdb.org/t/p/original/r4mco2f7Vn5RXvGiTrVEJY9ctrM.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija6.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/Jyf_XfAMct0/0.jpg</imageUrl>
+    <title>Сенке над Балканом</title>
+    <imageUrl>https://image.tmdb.org/t/p/original/jmh0hWOAy0C68EpWDTSYlUh3JPk.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija7.xml</xmlUrl>
   </movie>
   <movie>
-    <title>XXX</title>
-    <imageUrl>https://img.youtube.com/vi/0C6HNIFUvz0/0.jpg</imageUrl>
+    <title>Selo gori, a baba se češlja </title>
+    <imageUrl>https://image.tmdb.org/t/p/original/fO9EQAPJDsqNyc6gQscTguO5gcW.jpg</imageUrl>
     <xmlUrl>https://sevcet.github.io/yyniymdr777/serija8.xml</xmlUrl>
   </movie>
 
